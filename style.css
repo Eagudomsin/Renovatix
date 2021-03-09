@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Playfair Display', serif;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(Image/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-box {
+    margin: 100px 0 0 120px;
+}
+
+.main-box h1 {
+    margin: 20px 0;
+}
+
+nav {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    background-color: #1D2A3D;
+    font-size: 1.5rem;
+    padding: 0 20px 0 50px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
+}
+
+.nav-link {
+    color: #EBFFFE;
+}
+
+.nav-link:hover {
+    color: #45dbe0;
+}
+
+.showcase {
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.showcase h2 {
+    padding: 30px 0 30px 10%;
+}
+
+.card img {
+    width: 80%;
+    margin: 10%;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 0 10% 5% 10%;
+}
+
+.card-text {
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.show-box {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.project {
+    width: 25%;
+}
+
+.slick-arrow:before {
+    color: #023333;
+}
+
+.footer {
+    background: #e0f5f5;
+    background-image: url(Image/Footer.jpg);
+    background-blend-mode: darken;
+    color: #092442;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h2 {
+    margin-top: 10px;
+}
+
+.social-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.social-box div {
+    margin: 20px 10px;
+    font-size: 1.5rem;
+}
+
+.social-box img {
+    width: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    nav {
+        position: fixed;
+        font-size: 1.5rem;
+        padding: 0 20px 0 20px;
+        width: 100vw;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .nav {
+        justify-content: space-evenly;
+    }
+
+    .showcase {
+        min-height: 60vh;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    nav {
+        position: fixed;
+        font-size: 1.5rem;
+        padding: 0 20px 0 20px;
+        width: 100vw;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .nav {
+        justify-content: space-evenly;
+    }
+
+    .showcase {
+        min-height: 60vh;
+        margin-bottom: 50px;
+    }
+}
