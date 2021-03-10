@@ -12,3 +12,13 @@ $('.show-box').slick({
     autoplay: true,
     autoplaySpeed: 2000,
   });
+
+$('.menu-btn').click(function() {
+  $('#nav').addClass('show-nav');
+  $('.menu-btn').css('display','none');
+})
+
+$('.exit-btn').click(function() {
+  $('#nav').removeClass('show-nav');
+  $('.menu-btn').css('display','initial');
+})
