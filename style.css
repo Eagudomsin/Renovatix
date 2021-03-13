@@ -180,6 +180,38 @@
     border-radius: 20px;
 }
 
+/* CSS for Contact */
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    margin: 30px;
+}
+
+.map-box {
+    background: #ecececd7;
+    padding: 20px;
+    height: 80vh;
+}
+
+.map {
+    max-width: 1000px;
+    max-height: 650px;
+    width: 80%;
+    height: 80%;
+}
+
+.email-container {
+    padding: 20px;
+}
+
+#send-btn {
+    padding: 5px;
+    border-radius: 10px;
+}
+
 /* CSS for Footer */
 
 .footer {
@@ -294,4 +326,18 @@
         width: 100%;
     }
 
+    .contact h2 {
+        margin: 15px;
+    }
+
+    .introduce-box ul li {
+        text-align: center;
+        padding: 25px;
+        line-height: 20px;
+    }
+
+    .map-box {
+        height: 100vh;
+
+    }
 }
