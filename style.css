@@ -68,7 +68,9 @@
     padding: 30px 0 30px 10%;
 }
 
-.card img {
+/* CSS for Index */
+
+.project img {
     width: 80%;
     margin: 10%;
     border-radius: 15px;
@@ -95,6 +97,90 @@
 .slick-arrow:before {
     color: #023333;
 }
+
+/* CSS for Portfolio */
+
+.folio {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.folio h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.folio-container {
+    max-width: 80%;
+    justify-content: center;
+}
+
+.folio-container .card {
+    margin: 10px;
+}
+
+.portfolio-box img {
+    width: 80%;
+    margin: 20px 10%;
+}
+
+.port-description {
+    display: inline;
+}
+
+/* CSS for About us*/
+
+.about-us {
+    background: #d2d9e0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about-us h2, .material h2 {
+    padding: 30px 10%;
+}
+
+.introduce-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.introduce-box img {
+    clip-path: circle(50%);
+    width: calc(100px + 10vh);
+    margin: 20px 80px;
+}
+
+.introduce-box h4 {
+    padding: 10px;
+}
+
+.introduce-box ul li {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.material {
+    text-align: center;
+}
+
+.material-container {
+    justify-content: center;
+}
+
+.material-box {
+    margin: 10px;
+}
+
+.material-box img {
+    width: 50%;
+    margin: 20px 25%;
+    border-radius: 20px;
+}
+
+/* CSS for Footer */
 
 .footer {
     background: #e0f5f5;
@@ -135,10 +221,17 @@
         justify-content: space-evenly;
     }
 
+    .main-box {
+        margin: 100px 0 0 80px;
+    }
+
+    /* CSS for Index */
+
     .showcase {
         min-height: 60vh;
         margin-bottom: 50px;
     }
+
 }
 
 @media only screen and (max-width: 450px) {
